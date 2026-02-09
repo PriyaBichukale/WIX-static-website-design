@@ -1,0 +1,233 @@
+*{
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+button{
+            border: 1px solid gray;
+        }
+.navbar{
+            background-color: white;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 8px 0px 10px 0px rgb(200, 199, 199);
+        }
+        .logo{
+            width: 50%;
+            
+        }
+        .logo img{
+            padding-left: 48px;
+        }
+
+        .nav{
+            width: 50%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        .nav p,.nav a,.nav button{
+            margin: 0px 15px;
+            
+        }
+        .nav a{
+            color: rgb(55, 54, 54);
+            text-decoration: underline black;
+        }
+        .nav button{
+            background-color: rgb(39, 38, 38);
+            color: white;
+            font-size: 1rem;
+            width: 140px;
+            height: 40px;
+            border-radius: 5px;
+            padding: 0px 8px;
+        }
+        .nav button:hover{
+            background-color: rgb(7, 7, 136);
+        }
+
+        .navbar2{
+            height: 83px;
+            width: 100%;
+            background-color: rgb(232, 234, 236);
+            position: sticky;
+            top: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 5;
+        }
+        .navbar2 .logo{
+            display: flex;
+            align-items: center;
+        }
+        .navbar2 a{
+            margin: 20px;
+            text-decoration: none;
+            color: gray;
+            font-size: 1.1rem;
+            transition: 0.8s;
+        }
+        .navbar2 a:hover{
+            color: black;
+        }
+        .body{
+            z-index: 1;
+            width: 94%;
+            margin: 0px 3%;
+            height: auto;
+        }
+        .contactbody1{
+            display: flex;
+            column-gap: 13px;
+            height: auto;
+        }
+        .contactbody1 .left{
+            padding: 9% 7% 7% 7%;
+            width: 20%; 
+            height: 571.5px;
+            background-color: rgb(65, 64, 64);
+            display: flex;
+            flex-direction: column;
+            row-gap: 18px;
+            position: relative;
+        }
+        .contactbody1 .right{
+            display: flex;
+            justify-content: center;
+            width: 66%;
+            height: 800px;
+            background-color: rgb(223, 237, 239);
+            color: rgb(58, 59, 59);
+            background-image: url(./images/image\ copy\ 14.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .contactbody1 h1, .contactbody1 p{
+            color: rgb(229, 231, 231);
+        }
+        .contactbody1 h1{
+            font-size: 2.5rem;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 45px;
+            background-color: rgb(232, 234, 236);
+            width: 500px;
+            height: 600px;
+        }
+        form div{
+            
+            display: flex;
+            flex-direction: column;
+            row-gap: 6px;
+        }
+        form div label:nth-of-type(1){
+            margin-top: 20px;
+        }
+
+        input{
+            background-color: rgb(232, 234, 236);
+            border: 2px solid rgb(183, 182, 182);
+            width: 450px;
+            height: 40px;
+            padding: 1px;
+            font-size: 1rem;
+        }
+        form button{
+            font-size: 17px;
+            font-weight: 600;
+            width: 452px;
+            height: 45px;
+            border-radius: 50px;
+            background-color: rgb(223, 237, 239);
+        }
+
+        #message{
+            height: 85px;
+        }
+        .contactbody2{
+            display: flex;
+            column-gap: 12.5px;
+        }
+        .contactbody2 .left{
+            width: 33.9%;
+            height: 90px;
+            background-color: rgb(165, 169, 169);
+            position: relative;
+        }
+        .contactbody2 .right{
+            width: 65.5%;
+            height: 90px;
+            background-color: rgb(223, 237, 239);
+        }
+        .contactbody2 h1{
+            position: absolute;
+            top: 24px;
+            left: 65px;
+            font-size: 2.1rem;
+            color: rgb(58, 59, 59);
+        }
+        .grid1, .grid2, .grid3{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: 40px 0px;
+            color: rgb(97, 96, 96);
+        }
+        .grid1 div:nth-child(2), .grid2 div:nth-child(2), .grid3 div:nth-child(2){
+            padding-left: 25px;
+        }
+        .grid1 div:nth-child(1), .grid2 div:nth-child(1), .grid3 div:nth-child(1){
+            font-size: 1.2rem;
+        }
+        .contactbody4{
+            width:100%;
+            height: 300px;
+            background-color: gray;
+            margin: 15px 0px;
+        }
+        
+        footer{
+            width: 100%;
+            height: 330px;
+            background-color: rgb(65, 64, 64);
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        
+        
+        footer div:nth-of-type(1){
+            font-size: 32px;
+            padding: 45px 0px 0px 35px;
+            font-weight: 650;
+            color: white;
+        }
+
+        footer div:nth-of-type(2){
+            padding-top: 35px;
+            font-size: 17px;
+            color: rgb(200, 199, 199);
+        }
+
+        footer i{
+            border-radius: 50px;
+            color:  white;
+            width: 50px;
+            height: 50px;
+        }
+        footer pre:nth-of-type(1){
+            color: rgb(200, 199, 199);
+        }
+        footer a{
+            color: rgb(200, 199, 199);
+        }
+        

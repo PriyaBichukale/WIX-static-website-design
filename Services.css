@@ -1,0 +1,223 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        button{
+            border: 1px solid gray;
+        }
+        .navbar{
+            background-color: white;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 8px 0px 10px 0px rgb(200, 199, 199);
+        }
+        .logo{
+            width: 50%;
+            
+        }
+        .logo img{
+            padding-left: 48px;
+        }
+
+        .nav{
+            width: 50%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        .nav p,.nav a,.nav button{
+            margin: 0px 15px;
+            
+        }
+        .nav a{
+            color: rgb(55, 54, 54);
+            text-decoration: underline black;
+        }
+        .nav button{
+            background-color: rgb(39, 38, 38);
+            color: white;
+            font-size: 1rem;
+            width: 140px;
+            height: 40px;
+            border-radius: 5px;
+            padding: 0px 8px;
+        }
+        .nav button:hover{
+            background-color: rgb(7, 7, 136);
+        }
+
+        .navbar2{
+            height: 83px;
+            width: 100%;
+            background-color: rgb(232, 234, 236);
+            position: sticky;
+            top: 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 5;
+        }
+        .navbar2 .logo{
+            display: flex;
+            align-items: center;
+        }
+        .navbar2 a{
+            margin: 20px;
+            text-decoration: none;
+            color: gray;
+            font-size: 1.1rem;
+            transition: 0.8s;
+        }
+        .navbar2 a:hover{
+            color: black;
+        }
+
+        .body{
+            z-index: 1;
+            width: 94%;
+            margin: 0px 3%;
+            height: auto;
+        }
+
+        .servicebody1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 11px;
+            height: auto;
+        }
+        
+        .servicebody1 .left{
+            display: flex;
+            flex-direction: column;
+            row-gap: 9%;
+            padding: 9% 7% 7% 7%;
+            color: rgb(241, 238, 238);
+            width: 24%;
+            height: 370px;
+            background-color: rgb(65, 64, 64);
+        }
+        .servicebody1 .left h2{
+            font-size: 40px;
+        }
+
+        .servicebody1 .right{
+            width: 76%;
+            height: 600px;
+            background-color: blueviolet;
+        }
+
+        .servicebody2{
+            margin: 90px 0px;
+            display: flex;
+        }
+        .servicebody2 .left{
+            width: 35.5%;
+        }
+        .servicebody2 .right{
+            width: 63.5%;
+        }
+        .servicebody2 h2{
+            font-size: 35px;
+            color: rgb(58, 59, 59);
+        }
+        .servicebody2 .right{
+            display: flex;
+            align-items: center;
+        }
+        .servicebody2 p{
+            font-size: 18px;
+            color: rgb(58, 59, 59);
+        }
+        .content p{
+            color: rgb(58, 59, 59);
+            margin: 21px 0px;
+            font-size: 16px;
+            
+        }
+        .servicebody3{
+            margin-top: 60px;
+            height: auto;
+            display: flex;
+            column-gap: 11px;
+        }
+        .servicebody3 .left{
+            width: 35.5%;
+            height: 400px;
+            background-image: url(./images/image\ copy\ 11.png);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .servicebody3 .right{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            padding: 6% 6% 6% 12%;
+            width: 57.5%;
+            height: 229px;
+            background-color: rgb(223, 237, 239);
+        }
+        .servicebody3 .right h2{
+            font-size: 33px;
+            color: rgb(58, 59, 59);
+        }
+
+        .servicebody3 .right button{
+            width: 130px;
+            height:48px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1rem;
+            color: rgb(55, 54, 54);
+            border-color: rgb(55, 54, 54);
+            background-color: rgba(193, 212, 206,0.6);
+            transition: 0.7s;
+        }
+        .servicebody3 .right button:hover{
+            background-color: rgb(55, 54, 54);
+            color: rgba(193, 212, 206,0.9);
+        }
+
+        footer{
+            width: 100%;
+            height: 330px;
+            background-color: rgb(65, 64, 64);
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        
+        
+        footer div:nth-of-type(1){
+            font-size: 32px;
+            padding: 45px 0px 0px 35px;
+            font-weight: 650;
+            color: white;
+        }
+
+        footer div:nth-of-type(2){
+            padding-top: 35px;
+            font-size: 17px;
+            color: rgb(200, 199, 199);
+        }
+
+        footer i{
+            border-radius: 50px;
+            color:  white;
+            width: 50px;
+            height: 50px;
+        }
+        footer pre:nth-of-type(1){
+            color: rgb(200, 199, 199);
+        }
+        footer a{
+            color: rgb(200, 199, 199);
+        } 
